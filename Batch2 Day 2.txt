@@ -1,0 +1,82 @@
+Web Application
+
+static : where the content is not getting changed.
+website
+
+dynamic : which can be changed.
+where interaction is involved.
+web application
+
+web application
+presentation layer : user interface : HTML,CSS,Bootstrap
+
+business logic layer : middleware where the logics have been implemented.
+
+database layer : where collection of data is stored.
+
+
+
+
+html
+
+
+index.html  
+
+
+login.html
+
+<form action="url of the destination page" method="get|post">
+<input type="text" name="uname">
+<input type="password" name="upass">
+<input type="submit">
+</form>
+
+
+get : carries the data over the url
+it can carry a limited data only
+the data is visible over the url
+it is not secure.
+
+post : carries the data in the method body
+it can carry unlimited data
+the data is not visible 
+it is secure.
+
+
+
+hbm2ddl.auto
+
+possible values for the value attribute :
+1)update : if the tables are not created, it will create the table.In case of modification in the entity classes, it will alter the table structure automatically.
+
+2)create : it will drop the previous schema and everytime will create a new structure.
+
+3)create-drop : when application is deployed, it will create the structure, when application is stopped, it will drop the table structure.
+
+4) none : makes no changes in the database.
+
+5) validate: it will only validate the schema without performing any changes in the database.
+
+
+
+Architecture of a web application
+
+ 2 types of web application architecture
+
+1) Thin Client Fat Server : 
+
+ N-tier architecture
+2) Thin Server Fat Client :
+
+
+
+
+
+
+
+
+
+
+
+
+
